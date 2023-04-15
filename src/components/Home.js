@@ -20,10 +20,10 @@ const Home = () => {
         This is a welcome page for my React application.
       </p>
       <button className="button" onClick={handleClick}>
-        Go to Covid Page
+        Go to Contact Page
       </button>
       <button className="button" onClick={handleClick1}>
-        Go to Contact Page
+        Go to Covid Page
       </button>
     </div>
   );
