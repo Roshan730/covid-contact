@@ -1,0 +1,89 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.navbar-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.search-container {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+
+.navbar-buttons {
+  display: flex;
+}
+
+.navbar-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.navbar-button:hover {
+  color: #007bff;
+}
+
+.navbar-button.active {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.data-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.data-card {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.data-card h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.data-card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.data-card p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
